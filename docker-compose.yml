@@ -1,0 +1,5 @@
+services:
+  flowable:
+    image: flowable/flowable-rest:6.8.0
+    ports:
+      - "8080:8080"
