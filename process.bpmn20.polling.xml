@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions
+    xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    targetNamespace="http://flowable.org/bpmn20">
+
+    <process id="aiDemoProcess" name="AI Demo Process" isExecutable="true">
+
+        <startEvent id="startEvent" />
+
+        <userTask
+            id="aiTask"
+            name="AI Assistant Demo Task" />
+
+        <endEvent id="endEvent" />
+
+        <sequenceFlow
+            id="flow1"
+            sourceRef="startEvent"
+            targetRef="aiTask" />
+
+        <sequenceFlow
+            id="flow2"
+            sourceRef="aiTask"
+            targetRef="endEvent" />
+
+    </process>
+</definitions>
