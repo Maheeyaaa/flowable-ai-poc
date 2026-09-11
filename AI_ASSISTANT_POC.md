@@ -257,6 +257,7 @@ This confirmed that the integration service can detect multiple newly created Fl
 ## 14. Evidence
 
 ### Screenshot 1 — Flowable Swagger UI
+![Flowable Swagger UI](screenshots/flowable-swagger.png)
 
 The screenshot shows the locally running Flowable v6 REST API and Swagger documentation.
 
@@ -267,6 +268,7 @@ The screenshot shows the locally running Flowable v6 REST API and Swagger docume
 
 
 ### Screenshot 2 — Automatic AI Integration
+![AI Integration Test](screenshots/ai-integration.png)
 
 The screenshot shows the Python integration service:
 
